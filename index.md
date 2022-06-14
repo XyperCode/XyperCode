@@ -1,4 +1,3 @@
-# Qboi123 Website
 *Basically just used for mods etc. that aren't part of Ultreon Team or any other coding team.*
 
 ## Links
