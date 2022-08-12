@@ -7,7 +7,7 @@
 - 🔗 Website: www.qboi.tk and www.ultreonteam.tk
 
 ## About Qboi
-Hello, I'm Qboi and I code since 2016.  
+Hello, I'm Qboi and I code since 2014.  
 
 Now I can code in multiple languages; C++, Kotlin, Java, Visual Basic, C#, Python, BASIC.  
 Most of the time I work on projects like Minecraft mods, utility software and sometimes a game called Bubble Blaster.  
