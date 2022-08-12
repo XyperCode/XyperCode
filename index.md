@@ -1,7 +1,15 @@
 *Basically just used for mods etc. that aren't part of Ultreon Team or any other coding team.*
 
+### Hi there 👋
+- 😄 Pronouns: `He/him`
+- 🏢 Owner of [Ultreon Team](https://github.com/Ultreon) 
+- 💼 Developer at [MultiTeam](https://github.com/MultiTeamDevGroup)
+- 💻 Favourite OS: `Windows 11` and `Ubuntu`.
+- 🕓 Timezone: `CET/CEST`
+- 🔗 Website: www.qboi.tk and www.ultreonteam.tk
+
 ## About Qboi
-Hello, I'm Qboi and I code since 2016.  
+Hello, I'm Qboi and I code since 2014.  
 
 Now I can code in multiple languages; C++, Kotlin, Java, Visual Basic, C#, Python, BASIC.  
 Most of the time I work on projects like Minecraft mods, utility software and sometimes a game called Bubble Blaster.  
