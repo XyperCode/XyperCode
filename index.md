@@ -6,7 +6,7 @@
 - 💼 Developer at [MultiTeam](https://github.com/MultiTeamDevGroup)
 - 💻 Favourite OS: `Windows 11` and `Ubuntu`.
 - 🕓 Timezone: `CET/CEST`
-- 🔗 Website: www.qboi.tk and www.ultreonteam.tk
+- 🔗 Website: [www.qboi.tk](https://qboi.tk) and [www.ultreonteam.tk](https://ultreonteam.tk)
 
 ## About Qboi
 Hello, I'm Qboi and I code since 2014.  
