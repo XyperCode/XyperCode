@@ -14,6 +14,9 @@ Most of the time I work on projects like Minecraft mods, utility software and so
 Feel free to help with projects (as long it's allowed in the License which it is in [Ultreon Team](https://github.com/Ultreon), [MultiTeam](https://github.com/MultiTeamDevGroup) and from [my own profile](https://github.com/Qboi123)).  
 Also, I've joined [MultiTeam](https://github.com/MultiTeamDevGroup) at April 14th 2021, and made originally Qplay Software, then QSoftware and then [Ultreon Team](https://github.com/Ultreon).  
 
+## Metrics
+![](github-metrics.svg)
+
 ## Links
  - [Ultreon Team Website](https://ultreonteam.tk)
  - [Ultreon Team Discord Server](https://www.discord.gg/WePT9v2CmQ)
