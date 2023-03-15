@@ -9,6 +9,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;400;900&display=swap" rel="stylesheet" />
+    
+    <link rel="manifest" href="/app.webmanifest">
+
+    <script>
+      if ("serviceWorker" in navigator){
+       navigator.serviceWorker.register("/service-worker.js")
+      }
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
 
@@ -266,10 +274,6 @@
       }, handleError);
     });
     </script> -->
-    
-    <pwa-install manifestpath="manifest.json"></pwa-install>
-
-    <script src="pwa-install.js"></script>
   </head>
   <body>
     <section class="blue" style="height: fit-content;">

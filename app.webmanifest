@@ -1,0 +1,9 @@
+{ 
+  "name": "Qboi's Site",
+  "short_name": "Qboi",
+  "lang": "en-US",
+  "start_url": "www/",
+  "display": "standalone",
+  "background_color": "#3c31dd",
+  "theme_color": "#3c31dd"
+}
