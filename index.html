@@ -257,7 +257,7 @@
             display: none;
         }
     </style>
-    <script>window.addEventListener("beforeinstallprompt", (e) => {
+    <!-- <script>window.addEventListener("beforeinstallprompt", (e) => {
       // log the platforms provided as options in an install prompt
       console.log(e)
       console.log(e.platforms); // e.g., ["web", "android", "windows"]
@@ -265,10 +265,11 @@
         console.log(choiceResult.outcome); // either "accepted" or "dismissed"
       }, handleError);
     });
-    </script>
+    </script> -->
     
     <pwa-install manifestpath="manifest.json"></pwa-install>
 
+    <script src="pwa-install.js"></script>
   </head>
   <body>
     <section class="blue" style="height: fit-content;">
