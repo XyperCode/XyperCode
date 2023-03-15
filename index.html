@@ -257,9 +257,14 @@
             display: none;
         }
     </style>
-    <script>
-      var evt = 3
-      beforeinstallprompt += (e) => evt = e
+    <script>window.addEventListener("beforeinstallprompt", (e) => {
+      // log the platforms provided as options in an install prompt
+      console.log(e)
+      console.log(e.platforms); // e.g., ["web", "android", "windows"]
+      e.userChoice.then((choiceResult) => {
+        console.log(choiceResult.outcome); // either "accepted" or "dismissed"
+      }, handleError);
+    });
     </script>
   </head>
   <body>
