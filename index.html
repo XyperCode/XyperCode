@@ -30,7 +30,7 @@
           color: white;
           background: #202731;
           overflow-x: clip;
-          width: 100vw
+          width: 100%
         }
   
         section {
@@ -257,6 +257,10 @@
             display: none;
         }
     </style>
+    <script>
+      var evt = 3
+      beforeinstallprompt += (e) => evt = e
+    </script>
   </head>
   <body>
     <section class="blue" style="height: fit-content;">
