@@ -11,17 +11,16 @@ Hello, I'm Qboi and I code since 2014.
 
 Now I can code in multiple languages; C++, Kotlin, Java, Visual Basic, C#, Python, BASIC.  
 Most of the time I work on projects like Minecraft mods, utility software and sometimes a game called Bubble Blaster.  
-Feel free to help with projects (as long it's allowed in the License which it is in [Ultreon Team](https://github.com/Ultreon), [MultiTeam](https://github.com/MultiTeamDevGroup) and from [my own profile](https://github.com/Qboi123)).  
-Also, I've joined [MultiTeam](https://github.com/MultiTeamDevGroup) at April 14th 2021, and made originally Qplay Software, then QSoftware and then [Ultreon Team](https://github.com/Ultreon).  
+Made originally Qplay Software, then QSoftware and then [Ultreon Team](https://github.com/Ultreon).  
 
 ## Metrics
 ![](github-metrics.svg)
 
 ## Links
- - [Ultreon Team Website](https://ultreonteam.tk)
+ - [Ultreon Team Website](https://ultreon.dev)
  - [Ultreon Team Discord Server](https://www.discord.gg/WePT9v2CmQ)
  - [Ultreon Team GitHub](https://github.com/Ultreon) (Allows pull requests and issues)
  - [Ultreon Team GitLab](https://gitlab.com/ultreon) (Allows pull requests and issues)
- - [Qboi123 Website](https://qboi.tk)
- - [Qboi123 GitHub](https://github.com/Qboi123) (Allows issues)
- - [Qboi123 GitLab](https://gitlab.com/qboi123) (Allows issues)
+ - [XyperCode Website](https://xypercode.github.io)
+ - [XyperCode GitHub](https://github.com/XyperCode) (Allows issues)
+ - [XyperCode GitLab](https://gitlab.com/xypercode) (Allows issues)
