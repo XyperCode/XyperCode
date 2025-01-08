@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="971" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="958" class="">
     <defs>
         <style/>
     </defs>
@@ -409,7 +409,7 @@
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">83dd471b</span>
-                            <span class="code">.idea/gradle.xml</span>
+                            <span class="code">testing/build.gradle.kts</span>
                             <span class="code">
                                 <span class="snippet additions">++2</span>
                                 <span class="snippet deletions">--2</span>
@@ -420,14 +420,14 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -9,9 +9,9 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">  &lt;option name="modules"&gt;<br /></span><span class="token prefix unchanged">·</span><span class="token line">    &lt;set&gt;<br /></span><span class="token prefix unchanged">·</span><span class="token line">      &lt;option value="$PROJECT_DIR$" /&gt;<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">      &lt;option value="$PROJECT_DIR$/app" /&gt;<br /></span><span class="token prefix deleted">-</span><span class="token line">      &lt;option value="$PROJECT_DIR$/compiled" /&gt;<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">      &lt;option value="$PROJECT_DIR$/compiler" /&gt;<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">      &lt;option value="$PROJECT_DIR$/pylib" /&gt;<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">      &lt;option value="$PROJECT_DIR$/testing" /&gt;<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">    &lt;/set&gt;<br /></span><span class="token prefix unchanged">·</span><span class="token line">  &lt;/option&gt;<br /></span><span class="token prefix unchanged">·</span><span class="token line">&lt;/GradleProjectSettings&gt;</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -13,8 +13,8 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">   testImplementation(platform("org.junit:junit-bom:5.10.0"))<br /></span><span class="token prefix unchanged">·</span><span class="token line">   testImplementation("org.junit.jupiter:junit-jupiter")<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">   if (file("../build/example.jar").exists()) {<br /></span><span class="token prefix deleted">-</span><span class="token line">       implementation(files("../build/example.jar"))<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">   if (file("../build/libs/example-1.0.jar").exists()) {<br /></span><span class="token prefix inserted">+</span><span class="token line">       implementation(files("../build/libs/example-1.0.jar"))<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">   }<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">   implementation(project(":pylib"))</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 8 Jan 2025, 19:17:02 (timezone Europe/Amsterdam) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 8 Jan 2025, 20:10:43 (timezone Europe/Amsterdam) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
