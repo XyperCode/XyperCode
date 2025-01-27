@@ -409,7 +409,7 @@
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">ae662bf5</span>
-                            <span class="code">neoforge/src/main/java/dev/ultreon/mods/xinexlib/platform/client/NeoForgeEntityRendererRegistry.java</span>
+                            <span class="code">common/src/main/java/dev/ultreon/mods/xinexlib/client/event/LocalPlayerJoinEvent.java</span>
                             <span class="code">
                                 <span class="snippet additions">++0</span>
                                 <span class="snippet deletions">--1</span>
@@ -420,14 +420,14 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -15,7 +15,6 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">import net.neoforged.bus.api.SubscribeEvent;<br /></span><span class="token prefix unchanged">·</span><span class="token line">import net.neoforged.fml.common.EventBusSubscriber;<br /></span><span class="token prefix unchanged">·</span><span class="token line">import net.neoforged.neoforge.client.event.EntityRenderersEvent;<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">import net.neoforged.neoforge.common.NeoForgeMod;<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">import java.util.HashMap;<br /></span><span class="token prefix unchanged">·</span><span class="token line">import java.util.Map;</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -1,7 +1,6 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">package dev.ultreon.mods.xinexlib.client.event;<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">import net.minecraft.client.player.LocalPlayer;<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">import net.minecraft.world.entity.player.Player;<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">public class LocalPlayerJoinEvent implements LocalPlayerEvent {<br /></span><span class="token prefix unchanged">·</span><span class="token line">  private final LocalPlayer localPlayer;</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 27 Jan 2025, 04:15:29 (timezone Europe/Amsterdam) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 27 Jan 2025, 05:15:24 (timezone Europe/Amsterdam) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
